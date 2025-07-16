@@ -1,1 +1,79 @@
 /* your code here */
+
+body {
+	background: lightgreen;
+	margin:0;
+	padding:0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+i {
+	color: white
+}
+.variant > ul, .photo-album > ul{
+	display: flex;
+	list-style: none;
+	column-gap: 8px;
+}
+
+.photo-album > ul > li {
+	border: 1px solid gray;
+	border-radius: 8px;
+}
+
+.product {
+	display: flex;
+	background: white;
+	padding: 18px;
+}
+.product__photo {
+	position: relative;
+	left: -32px;
+	
+}
+.photo-main  {
+	padding: 24px 0 54px 0;
+	background: radial-gradient(lightgreen, darkgreen);
+	border-radius: 8px;
+}
+
+.controls {
+	display: flex;
+	justify-content: space-between;
+	padding: 8px;
+}
+
+.photo-main > img {
+	position: relative;
+	left: -14%;
+}
+
+
+
+.title > span {
+	color: gray;
+}
+
+.price  {
+	color: red;
+	font-size: 2em;
+}
+
+.price > span {
+	font-size: 3em;
+}
+
+.title > span, .variant > h3, .benefits > h3 {
+	color: gray;
+}
+
+button {
+	background: red;
+	padding: 18px 28px;
+	border-radius: 8px;
+	box-shadow: 1px 1px 20px black
+}
